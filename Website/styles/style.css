@@ -12,6 +12,16 @@
     background: #f7efef;
 }
 
+.top-menu{
+    width: 100%;
+    height: 150px;
+    background-color: #2200ff;
+}
+
+.top-menu p{
+    color: #fff;
+}
+
 .logo {
     height: 100px;
     float: left;
@@ -23,18 +33,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #3f51b5;
-
 }
 
 .text-box{
