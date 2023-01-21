@@ -11,3 +11,27 @@
     padding: 0 10%;
     background: #f7efef;
 }
+
+.logo {
+    height: 100px;
+    float: left;
+}
+
+nav{
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #3f51b5;
+}
