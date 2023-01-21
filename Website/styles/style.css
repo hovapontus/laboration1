@@ -63,4 +63,13 @@ nav{
     margin-top: 50px;
     column-gap: 5px;
    }
-   
+
+
+
+
+/* nedan är sida - products*/
+
+.produkt1 {
+    height: 100px;
+    float: left;
+}
