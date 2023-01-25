@@ -121,10 +121,11 @@ text-decoration: none;
     transition: 4s;
     background:#dfdcdc;
 }
-img{
-    width: 200px;
+.productimage{
+    width: 150px;
     height: 200px;
     text-align: center;
     margin: 0 auto;
     display: block;
+    object-fit: cover;
 }
