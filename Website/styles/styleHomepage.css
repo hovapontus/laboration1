@@ -35,7 +35,7 @@ html, body{
 }
 
 .businessname{
-    color:#fff;
+    color:#f7efef;
     float: left;
 }
 
@@ -44,8 +44,15 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     padding: 20px 0;
+}
+
+nav p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 .content{
@@ -74,22 +81,64 @@ nav{
     border-radius: 6px;
 }
 
+.ratings {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ratings p {
+    text-align: center;
+}
+
+.tustpilot {
+    max-width: 9%;
+    height: auto;
+    float: left;
+}
+
+
 .images{
-    margin-top: 80px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     column-gap: 5px;
    }
 
-h3{
-    margin-bottom: 20px;
+.mobil{
+    max-width: 100%;
+    height: auto;
 }
 
-.container3{
-    
+.ad{
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    margin-bottom: 30px;
+}
+
+.container{
     width: 100%;
-    margin-top: 80px;
-    /*height: 100vh;*/
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    margin-top: auto;
+    background-color: #1e02cf;
+    color: #f7efef;
     display: flex;
     align-items: center;
     justify-content: center;
