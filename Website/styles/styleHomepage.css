@@ -19,7 +19,7 @@ html, body{
 
 .top-menu{
     width: 100%;
-    height: 150px;
+    height: 120px;
     background-color: #2200ff;
     padding: 0 10%;
 }
@@ -30,7 +30,12 @@ html, body{
 }
 
 .logo {
-    height: 120px;
+    height: 80px;
+    float: left;
+}
+
+.businessname{
+    color:#fff;
     float: left;
 }
 
@@ -52,7 +57,7 @@ nav{
     max-width: 600px;
 }
 
-.text-box h1{
+.text-box h2{
     font-size: 45px;
     margin-bottom: 20px;
     color: #3f51b5;
@@ -76,7 +81,7 @@ nav{
     column-gap: 5px;
    }
 
-h2{
+h3{
     margin-bottom: 20px;
 }
 
