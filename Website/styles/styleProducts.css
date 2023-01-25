@@ -75,8 +75,56 @@ nav{
 
 
 /* nedan är sida - products*/
-
+/*
 .produkt1 {
     height: 100px;
     float: left;
+}
+*/
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0%;
+    padding-top: 10px;
+
+}
+
+a{
+text-decoration: none;
+
+}
+
+
+.bilder {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    
+
+}
+
+
+.innehall {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25),
+    0 10 px 10 px rgba(0, 0, 0, 22);
+    transition: 4s;
+    background:#dfdcdc;
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
