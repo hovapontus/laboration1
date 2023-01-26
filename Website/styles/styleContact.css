@@ -5,27 +5,37 @@
     box-sizing: border-box;
 }
 
+html, body{
+    margin:0;
+    padding:0;
+    background-color: #f7efef;
+}
+
 .header{
     width: 100%;
     height: 100vh;
     padding: 0 0;
-    background: #f7efef;
 }
 
 .top-menu{
     width: 100%;
-    height: 150px;
+    height: 120px;
     background-color: #2200ff;
     padding: 0 10%;
-
 }
 
-.top-menu p{
-    color: #fff;
+.top-menu a{
+    color: #f7efef;
+    text-decoration: none;
 }
 
 .logo {
-    height: 120px;
+    height: 80px;
+    float: left;
+}
+
+.businessname{
+    color:#f7efef;
     float: left;
 }
 
@@ -38,17 +48,30 @@ nav{
     padding: 20px 0;
 }
 
+nav p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
 .content{
     padding: 0 10%;
 }
 
 .text-box{
-    margin-top: 130px;
+    margin-top: 80px;
     max-width: 600px;
 }
  
 .text-box h1{
     font-size: 45px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #3f51b5;
+}
+.text-box h2{
+    font-size: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
     color: #3f51b5;
@@ -93,9 +116,59 @@ nav{
     float: left;
 }
 
-/* nedan är sida - contacts */
-.contact1 {
+.input[type=text] {
+    background-color: #2200ff;
+    color: white;
+
+}
+
+.form{
+   background: #f7efef;
+   border-radius: 4px;
+   max-width: 480px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   left: 0;
+   right: 0;
+   position: absolute;
+   border-top: 5px solid #2200ff;
+   border-bottom: 5px solid #2200ff;
 
 
+}
 
+.name {
+    background-color: #f7efef;
+    color: #2200ff;
+    
+
+}
+
+.email {
+    background-color: #f7efef;
+    color: #2200ff;
+}
+
+.feedback{
+    background-color: #f7efef;
+    color: #2200ff
+
+}
+
+.footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    margin-top: auto;
+    background-color: #1e02cf;
+    color: #f7efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
