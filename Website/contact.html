@@ -2,7 +2,7 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8">
-    <title>Teknikprylar till bra priser - Techexpressen</title>
+    <title>Kontakta oss - Techexpressen</title>
     <link rel="stylesheet" href="styles/styleContact.css">
   </head>
 
@@ -10,19 +10,36 @@
     <div class="header">
       <div class="top-menu">
         <nav>
-          <img src="images/Techexpressen_logo.png" class="logo">
-          <p><a href="#">Hem</a>&nbsp&nbsp&nbsp&nbsp<a href="#">Produkter</a>&nbsp&nbsp&nbsp&nbsp<a href="#">Kontakt</a></p>
+          <img src="images/TechExpressenLogo.png" class="logo">
+          <h1 class="businessname">Techexpressen</h1>
+          <p><a href="/Website/homepage.html">Hem</a>&nbsp&nbsp&nbsp&nbsp<a href="/Website/products.html">Produkter</a>&nbsp&nbsp&nbsp&nbsp<a href="/Website/contact.html">Kontakt</a></p>
         </nav>
       </div>
 
       <div class="content">
         <div class="text-box">
-          <h1>Hur kan vi hjälpa er?</h1>
-          <h2>Vi vill alltid förbättra vår service för alla våra kunder, så har ni någon fråga ni vill få besvarad kan ni nå oss på:</h2>
-            <p><a href="mailto:techexpressen@wetotallyexist.com">Mail</a> eller <a href="tel 010 333 66 66">010-333 66 66</a></p>
-            <h2> Vill ni hellre besöka oss i butik finns vi lokaliserade i Kiruna</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1168.952588242075!2d20.259191961641775!3d67.84533956666742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d0b0a1d2ad48ad%3A0xee13458e046c6b40!2sLastv%C3%A4gen%2012%2C%20981%2038%20Kiruna!5e1!3m2!1ssv!2sse!4v1674477456641!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="form">
+            <h1>Hur kan vi hjälpa er?</h1>
+            <h2>Vi vill alltid förbättra vår service för alla våra kunder, meddela oss</h2><br>
+             <form>   
+                <label for="namn">Namn</label><br>
+                <input type="text" class="name"><br>
+                <label for="email">E-post</label><br>
+                <input type="email" class="email" required><br>
+                <label for="Feedback">Feedback på webbplatsen</label><br>
+                <textarea rows="5" cols="65" id="feedback" class="feedback"></textarea><br>
+                <!--<input type="submit" value="Skicka">-->
+                <button type="submit">Skicka</button>      
+          </div>
+          
+              </form>
         </div>
+      </div>
+      <div class="footer">
+        <h4>TECHEXPRESSEN</h4>
+        <p>Din leverantör av techprodukter</p>
+        <p>© 2023 Techexpressen</p>
       </div>
   </body>
 </html>
+<!--Visa email och gör den klickbar. istället för att ha knapp, bara gör mailadressen klickbar-->
