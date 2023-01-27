@@ -96,8 +96,6 @@ h3{
     padding: 0 10%;
 
 }
-
-
 .gallery{
     
     display: flex;
@@ -119,6 +117,11 @@ h3{
     0 10 px 10 px rgba(0, 0, 0, 0.22);
     background: #cbc4c4;
 }
+.innehall:hover{
+    background-color: rgb(144, 141, 145);
+
+}
+
 .samsung{
    
     width: 50%;
@@ -168,6 +171,17 @@ button{
     background-color: #2200ff;
 
 }
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container >h3
+
 .footer{
     position:fixed;
     bottom: 0;
