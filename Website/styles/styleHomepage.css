@@ -82,6 +82,7 @@ nav p{
     border-radius: 6px;
 }
 
+/*Nedan tre delar stylear trustpilot element*/
 .ratings{
     margin-top: 30px;
     display: flex;
@@ -99,6 +100,7 @@ nav p{
     float: left;
 }
 
+/*Nedan tre delar stylear de två banner-bilderna på startsidan*/
 .images{
     margin-top: 50px;
     width: 100%;
@@ -139,6 +141,7 @@ nav p{
     0 10 px 10 px rgba(0, 0, 0, 0.22);
     background: #cbc4c4;
 }
+
 .innehall:hover{
     background-color: rgb(144, 141, 145);
 }
@@ -163,7 +166,6 @@ nav p{
 p{
     text-align: center;
     color: #0e1011;
-    padding-top: 0 8px;
     margin: 2px;
 }
 
