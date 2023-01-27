@@ -168,3 +168,19 @@ button{
     background-color: #2200ff;
 
 }
+.footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    margin-top: auto;
+    background-color: #1e02cf;
+    color: #f7efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
