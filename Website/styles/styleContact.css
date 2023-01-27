@@ -104,16 +104,7 @@ nav p{
     align-items: center; 
     margin-top: 50px;
     column-gap: 5px;
-   }
-
-
-
-
-/* nedan är sida - products*/
-
-.produkt1 {
-    height: 100px;
-    float: left;
+   
 }
 
 .input[type=text] {
@@ -171,4 +162,31 @@ nav p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+article {
+
+    width: 20rem;
+    float: left;
+    font font-family: "poppins", sans-serif;
+    margin: 0 0 1rem 1rem;
+    padding: 1rem;
+    border-right: 1px solid black;
+    
+}
+
+blockquote {
+
+    float: left;
+    width: 5rem;
+    font font-family: "poppins", sans-serif;
+    margin: 0 0 1rem 1rem;
+    padding: 1rem;
+    border-right: 100px solid black;
+}
+
+.textbox h3 {
+
+    font-size: 15px;
+    color:#2200ff;
 }
