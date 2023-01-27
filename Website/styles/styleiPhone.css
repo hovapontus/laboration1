@@ -40,7 +40,6 @@ html, body{
 }
 
 /*Ser till att menypunkter är ordnade*/
-
 nav{
     width: 100%;
     display: flex;
@@ -56,46 +55,37 @@ nav p{
     justify-content: right;
 }
 
-/* nedan är sida - products*/
-
-h3{
-    text-align: center;
-    font-size: 30px;
-    margin: 0%;
-    padding-top: 10px;
-    color:#0e1011;
-}
-
-.video{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px 0;  
-}
-
-.intro p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    margin-bottom: 20px;
-    color: #000000;
+/*I styleProducts.css (finns i gallery)*/
+.content{
     padding: 0 10%;
 }
 
-.intro h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text-box{
+    margin-top: 80px;
+    max-width: 600px;
+}
+
+.text-box h2{
     font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #3f51b5;
-    padding: 0 10%;
 }
+
+.text-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #3f51b5;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 6px;
+}
+
 .gallery{
     
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
     width:100%;
     justify-content: center;
     align-items: center;
@@ -104,77 +94,30 @@ h3{
     padding-bottom: 10%;
 }
 
-.innehall {
-    width: 20%;
-    margin: 15px;
-    text-align: center;
-    border-radius: 20px;
-    padding-top: 10px;
-    background: #cbc4c4;  
-}
-
-.innehall:hover{
-    background-color: rgb(144, 141, 145);
-}
-
-/* Lyckades inte få samsung-bilden och iphone-bilden i samma storlek, delade upp css för respektive bild*/
-
-.samsung{ 
-    width: 50%;
-    height: 62%;
-    text-align: center;
-    margin: 0 auto;
-    object-fit: cover; 
-}
-
 .iPhone {
-    width: 63%;
-    height: 79%;
-    text-align: center;
+    width: 30%;
+    height: 45%;
+    text-align: right;
     margin: 0 auto;
     object-fit: cover;
-}
-
-p{
-    text-align: center;
-    color: #0e1011;
-    margin: 2px;
-}
-
-.frame {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: block;
-    object-fit: cover;  
-}
-
-h6{
-    font-size: 26px;
-    text-align: center;
-    color: #222f3e;
-    margin: 0;
+    float: left;
 }
 
 button{
     text-align:center;
     font-size: 24px;
     color: #fff;
-    width: 100%;
+    background-color:#2200ff;
+    width: 50%;
     padding: 15px;
     border: 0;
     outline:none;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
-button a{
-    color: #fff;
-}
-
-.Köp{
-    background-color: #2200ff;  
-}
 
 .footer{
     position:fixed;
