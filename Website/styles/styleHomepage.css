@@ -55,6 +55,7 @@ nav p{
     justify-content: right;
 }
 
+/*I styleProducts.css (finns i gallery)*/
 .content{
     padding: 0 10%;
 }
@@ -81,30 +82,29 @@ nav p{
     border-radius: 6px;
 }
 
-.ratings {
+.ratings{
     margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.ratings p {
+.ratings p{
     text-align: center;
 }
 
-.tustpilot {
+.tustpilot{
     max-width: 9%;
     height: auto;
     float: left;
 }
-
 
 .images{
     margin-top: 50px;
     width: 100%;
     display: flex;
     column-gap: 5px;
-   }
+}
 
 .mobil{
     max-width: 100%;
@@ -129,7 +129,7 @@ nav p{
 
 }
 
-.innehall {
+.innehall{
     width: 20%;
     margin: 15px;
     text-align: center;
@@ -139,32 +139,35 @@ nav p{
     0 10 px 10 px rgba(0, 0, 0, 0.22);
     background: #cbc4c4;
 }
+.innehall:hover{
+    background-color: rgb(144, 141, 145);
+}
+
 .samsung{
     width: 130px;
     height: 130px;
     text-align: center;
     margin: 0 auto;
     object-fit: cover;
-   
 }
-.iPhone {
+
+.iPhone{
     width: 150px;
     height: 165px;
     text-align: center;
     margin: 0 auto;
     display: block;
     object-fit: cover;
-
 }
+
 p{
     text-align: center;
     color: #0e1011;
     padding-top: 0 8px;
     margin: 2px;
-
 }
 
-.frame {
+.frame{
     width: 100%;
     height: 100%;
     margin: 0 auto;
@@ -177,8 +180,8 @@ h6{
     text-align: center;
     color: #222f3e;
     margin: 0;
-
 }
+
 button{
     text-align:center;
     font-size: 24px;
@@ -187,18 +190,15 @@ button{
     padding: 15px;
     border: 0;
     outline: none;
-    /*margin-top: 5px;*/
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-
 }
+
 .Köp{
     background-color: #2200ff;
-
 }
 
 /*Victor css upphör*/
-
 h3{
     margin-bottom: 30px;
 }
