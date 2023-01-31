@@ -70,7 +70,8 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 0;  
+    margin: 50px 0; 
+    border: 0px solid black; 
 }
 
 .intro p{
@@ -166,6 +167,7 @@ button{
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     cursor: pointer;
+    background-color: #2200ff;
 }
 
 button a{
@@ -175,6 +177,22 @@ button a{
 .Köp{
     background-color: #2200ff;  
 }
+a.Köp-här{
+    display: inline-block;
+    text-decoration: none;
+    text-align:center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline:none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    background-color: #2200ff;
+
+} 
 
 .footer{
     position:fixed;
