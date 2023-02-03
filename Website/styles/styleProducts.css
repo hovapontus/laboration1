@@ -177,6 +177,12 @@ button a{
 .Köp{
     background-color: #2200ff;  
 }
+
+.Köp:hover{
+background-color: darkblue;
+
+}
+
 a.Köp-här{
     display: inline-block;
     text-decoration: none;
@@ -193,6 +199,9 @@ a.Köp-här{
     background-color: #2200ff;
 
 } 
+a.Köp-här:hover{
+    background-color: darkblue;
+}
 
 .footer{
     position:fixed;

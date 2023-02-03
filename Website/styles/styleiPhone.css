@@ -94,13 +94,23 @@ nav p{
     padding-bottom: 10%;
 }
 
-.iPhone {
+.iPhone{
     width: 30%;
     height: 45%;
     text-align: right;
     margin: 0 auto;
     object-fit: cover;
     float: left;
+}
+
+div ul li{
+list-style-type:none;
+margin: 2px;
+text-decoration: underline;
+}
+
+li{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 button{
@@ -116,6 +126,11 @@ button{
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    margin: 5px;
+    
+}
+button:hover{
+    background-color: darkblue;
 }
 
 
