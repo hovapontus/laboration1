@@ -167,6 +167,18 @@ nav p{
     flex-direction: column;
 }
 
+.right-text{
+    font-size: 14px;
+    
+    text-align: right;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+
+
+}
+
 aside {
     float: left;
     width: 20rem;
