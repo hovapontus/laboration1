@@ -108,13 +108,13 @@ nav p{
     border-radius: 6px;
 }
  
-.container {
+/*.container {
     display: grid;
     align-items: center; 
     margin-top: 50px;
     column-gap: 5px;
    
-}
+}*/
 
 
 .form{
@@ -134,9 +134,40 @@ nav p{
 
 }
 
+.field{
+    background-color: #f7efef;
+    color: #2200ff 
+
+}
+
+.field h4{
+    font-size: 13px;
+    margin-top: 10px;
+    color:#3f51b5
+
+}
+
+.field select{
+    background-color: #f7efef;
+    color: #3f51b5;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 0 3px rgba (0,0,0,0.125);
+    
+    
+}
+
+.option{
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+
 .name {
     background-color: #f7efef;
     color: #2200ff;
+    box-shadow: 10px 10px 10px rgba (0,0,0,0.125);
+    
+
 
 }
 
@@ -167,15 +198,22 @@ nav p{
     flex-direction: column;
 }
 
-.right-text{
+.right-text {
     font-size: 14px;
-    
+    color:#f7efef
     text-align: right;
     float: right;
     position: absolute;
     right: 0;
     margin-right: 50px;
+    
 
+
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
 
 }
 
