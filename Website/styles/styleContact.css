@@ -215,9 +215,7 @@ nav p{
     color: #3f51b5;
     margin-top: 2px;
     margin-bottom: 10px;
-    box-shadow: 0 0 0 3px rgba (0,0,0,0.125);
-    
-    
+
 }
 
 .option{
@@ -228,10 +226,7 @@ nav p{
 .name {
     background-color: #f7efef;
     color: #2200ff;
-    box-shadow: 10px 10px 10px rgba (0,0,0,0.125);
     
-
-
 }
 
 .email {
@@ -261,19 +256,6 @@ nav p{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.right-text {
-    font-size: 14px;
-    color:#f7efef
-    text-align: right;
-    float: right;
-    position: absolute;
-    right: 0;
-    margin-right: 50px;
-    
-
-
 }
 
 .footer p a {
