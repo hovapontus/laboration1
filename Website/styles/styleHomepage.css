@@ -71,6 +71,7 @@ nav li{
     width: auto;
 }
 
+/*Sätter design för undermeny*/
 #submenu{
     display: flex;
     flex-direction: column;
@@ -144,13 +145,12 @@ li:hover ul#submenu{
     float: left;
 }
 
-/*Nedan tre delar stylear de två banner-bilderna på startsidan*/
+/*Nedan tre delar stylear de banner-bild på startsidan*/
 .images{
     margin-top: 40px;
     width: 100%;
     display: flex;
     justify-content: center;
-    /*column-gap: 5px;*/
 }
 
 .mobil{
@@ -207,7 +207,7 @@ p{
     margin: 2px;
 }
 
-/*för att cisa karta*/
+/*för att visa karta*/
 .frame{
     width: 100%;
     height: 100%;
