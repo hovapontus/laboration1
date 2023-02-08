@@ -27,11 +27,18 @@ html, body{
 .top-menu a{
     color: #f7efef;
     text-decoration: none;
+    display: flex;
+    padding: 15px 55px;
+}
+
+.top-menu li:hover a{
+    background: #2200ff;
 }
 
 .logo {
     height: 80px;
     float: left;
+    margin-right: 1rem;
 }
 
 .businessname{
@@ -48,11 +55,48 @@ nav{
     padding: 20px 0;
 }
 
-nav p{
+nav ul{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0 0rem;
+}
+
+nav li{
+    display: flex;
+    float: right;
+    position: relative;
+    width: auto;
+}
+
+#submenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #2200ff;
+    right: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu{
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    box-shadow: 0 5px 5px #222f3e;
+}
+
+#submenu li{
+    float: none;
+    width: 100%;
+}
+
+.grey:hover{
+    color:  gray;
 }
 
 /*I styleProducts.css (finns i gallery)*/
@@ -108,7 +152,7 @@ nav p{
 div ul li{
 list-style-type:none;
 margin: 2px;
-text-decoration: underline;
+text-decoration: none;
 }
 
 li{

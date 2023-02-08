@@ -95,6 +95,10 @@ li:hover ul#submenu{
     width: 100%;
 }
 
+.grey:hover{
+    color:  gray;
+    }
+
 /*I styleProducts.css (finns i gallery)*/
 .content{
     padding: 0 10%;
