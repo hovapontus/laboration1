@@ -90,6 +90,10 @@ li:hover ul#submenu{
     box-shadow: 0 5px 5px #222f3e;
 }
 
+.grey:hover {
+    color:gray;
+
+}
 #submenu li{
     float: none;
     width: 100%;
