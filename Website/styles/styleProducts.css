@@ -93,11 +93,15 @@ li:hover ul#submenu{
     top: 50px;
     visibility: visible;
     box-shadow: 0 5px 5px #222f3e;
+    /*background-color:darkblue;*/
 }
 
 #submenu li{
     float: none;
     width: 100%;
+}
+.grey:hover{
+color:  gray;
 }
 
 
