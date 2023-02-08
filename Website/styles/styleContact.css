@@ -71,6 +71,7 @@ nav li{
     width: auto;
 }
 
+/* Sätter design för undermeny */
 #submenu{
     display: flex;
     flex-direction: column;
@@ -116,7 +117,7 @@ nav p{
     max-width: 600px;
 }
 
- /*Nedanför gäller regler för diverse element*/
+ /* Styling för olika textboxes*/
 .text-box h1{
     font-size: 45px;
     margin-bottom: 20px;
@@ -158,14 +159,7 @@ nav p{
     border-radius: 6px;
 }
  
-/*.container {
-    display: grid;
-    align-items: center; 
-    margin-top: 50px;
-    column-gap: 5px;
-   
-}*/
-
+/* Formulärstyling */
 .form{
    background: #f7efef;
    border-radius: 4px;
@@ -197,6 +191,7 @@ nav p{
 
 }
 
+/*Styling för dropdown meny*/
 .field{
     background-color: #f7efef;
     color: #2200ff 
@@ -223,6 +218,7 @@ nav p{
 
 }
 
+/* Fortsatt styling för kundinfo på formulär*/
 .name {
     background-color: #f7efef;
     color: #2200ff;
@@ -242,6 +238,7 @@ nav p{
 
 }
 
+/* Footerstyling */
 .footer{
     position:fixed;
     bottom: 0;
