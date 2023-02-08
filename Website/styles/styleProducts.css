@@ -52,14 +52,7 @@ nav{
     justify-content: left;
     padding: 20px 0;
 }
-/*
-nav p{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-*/
+
 nav ul{
     width: 100%;
     display: flex;
