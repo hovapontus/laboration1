@@ -11,7 +11,17 @@
         <nav>
           <img src="images/TechExpressenLogo.png" alt="logga" class="logo">
           <h1 class="businessname">Techexpressen</h1>
-          <p><a href="/Website/homepage.html">Hem</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Website/products.html">Produkter</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Website/contact.html">Kontakt</a></p>
+          <ul>
+            <li><a href="homepage.html">Hem</a></li>
+            <li><a href="products.html">Produkter</a>
+              <ul id="submenu">
+                <a href="products.html">Apple</a>
+                <a href="products.html">Samsung</a>
+                <a href="products.html">Nokia</a>
+              </ul>
+            </li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
         </nav>
       </div>
 
@@ -33,12 +43,22 @@
                   <option>Betalning</option>
                   <option>Reklamation</option>
                 </select>
+                <div>
+                  <p>Denna hemsida ägs och drivs av Techexpressen. Dessa villkor anger villkoren under vilka du får använda vår hemsida och tjänsterna som erbjuds av oss. Genom att besöka eller använda vår hemsida, godkänner du att du har läst, förstått och samtycker till att vara bunden av dessa villkor.</p>
+                  <input type="checkbox" class="villkor" id="villkor" required>
+                  <label for="villkor">Klicka här för att godkänna villkoren</label>
+
+                </div>
               </div>
-              <label for="feedback">Skriv några rader om era funderingar:</label><br>
-              <textarea rows="5" cols="65" id="feedback" class="feedback"></textarea><br>
-              <button type="submit">Skicka</button>   
+              <h3>Meddelande</h3>
+                <textarea rows="5" cols="65" id="feedback" class="feedback"></textarea><br>
+              <div>
+                <input type="checkbox" id="Verifiera" required>
+                <label for="verifiera">Jag är inte en robot</label>
+              </div>
+              <button type="submit" class="button">Skicka</button>   
             </form>
-            <h3>Har ni någon specifik fråga ni vill ta upp om till exempel en produkt ni köpt av oss finns här några alternativa vis att kontakta oss på:</h3>
+            <h3>Ni kan även nå oss på:</h3>
             <ul>
               <li><a href="mailto:techexpressen@wetotallyexist.se">techexpressen@wetotallyexist.se</a></li>
               <li> Ring oss på 010-332 06 66.</li>
