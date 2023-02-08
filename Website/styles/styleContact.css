@@ -34,6 +34,7 @@ html, body{
 .logo {
     height: 80px;
     float: left;
+    margin-right: 1rem;
 }
 
 .businessname{
@@ -49,13 +50,52 @@ nav{
     justify-content: space-between;
     padding: 20px 0;
 }
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0 0rem;
+}
 
+nav li{
+    display: flex;
+    float: right;
+    position: relative;
+    width: auto;
+}
+
+#submenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #2200ff;
+    right: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+li:hover ul#submenu{
+    opacity: 1;
+    top: 50px;
+    visibility: visible;
+    box-shadow: 0 5px 5px #222f3e;
+}
+
+#submenu li{
+    float: none;
+    width: 100%;
+}
 nav p{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: right;
 }
+
 
 /*I StyleProducts.css (finns i gallery)*/
 .content{
@@ -84,7 +124,7 @@ nav p{
 
 .text-box h3{
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     margin-top: 15px;
     color: #3f51b5;
 
@@ -93,9 +133,10 @@ nav p{
 .text-box p{
     display: inline-block;
     text-decoration: none;
-    color: #000;
-    font-size: 18px;
+    color: #3f51b5;
+    font-size: 15px;
     margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 6px;
 }
 
@@ -116,7 +157,6 @@ nav p{
    
 }*/
 
-
 .form{
    background: #f7efef;
    border-radius: 4px;
@@ -131,6 +171,20 @@ nav p{
    border-top: 5px solid #2200ff;
    border-bottom: 5px solid #2200ff;
 
+
+}
+
+.button{
+    background-color: #2200ff;
+    text-align: center;
+    color:#ffffff;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 12px;
+    padding: 4px 9px;
+    margin-top: 5px;
 
 }
 
@@ -177,8 +231,10 @@ nav p{
 }
 
 .feedback{
+    margin-top: 5px;
     background-color: #f7efef;
     color: #2200ff
+    
 
 }
 
